@@ -7,6 +7,7 @@
 Data gathering tool for the BME280. Intended to be used for passing data to Raspberry Pi LoRa Node in Python. 
 
 Based on this tooling from [Adafruit](https://github.com/adafruit/Adafruit_CircuitPython_BME280)
+
 ---
 
 ## Usage
