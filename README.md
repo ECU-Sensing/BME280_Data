@@ -1,5 +1,6 @@
 # BME280_Data
-
+![Project: ECU Sensing](https://img.shields.io/badge/Project-ECU%20Sensing-blueviolet)
+![Type: Data](https://img.shields.io/badge/Type-Data-important)
 ![Language: Python](https://img.shields.io/badge/language-Python-blue)
 ![TTN: v2](https://img.shields.io/badge/TTN-v2-success)
 ![TTN: v3](https://img.shields.io/badge/TTN-v3-success)
