@@ -22,9 +22,13 @@ def get_data():
     sensor_data = bytearray(7)
     FEATHER_ID = 1
 
-    temp_val = bme280.temperature
-    humid_val = bme280.relative_humidity
-    press_val = bme280.pressure
+    # Get sensor readings
+    temp_val = int(bme280.temperature * 100)
+    print("\nTemperature: %0.1f C" % bme280.temperature)
+    humid_val = int(bme280.humidity * 100)
+    print("Humidity: %0.1f %%" % bme280.humidity)
+    press_val = int(bme280.pressure * 100)
+    print("Pressure: %0.1f hPa" % bme280.pressure)
 
     sensor_data[0] = FEATHER_ID
     # Temperature data
